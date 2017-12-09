@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="bigdata2:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/bigdata2_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="bigdata2/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="bigdata2" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
