@@ -1,7 +1,7 @@
 package utils;
 
 
-import data.scraping.yelp.Configurations;
+import data.scraping.yelp.Config;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 
@@ -12,7 +12,7 @@ import java.net.URL;
 
 public class API {
 
-    public JSONObject GET(String requestUrl, Configurations confg){
+    public JSONObject GET(String requestUrl, Config confg){
 
         JSONObject response = new JSONObject();
         String jsonResponse = null;
