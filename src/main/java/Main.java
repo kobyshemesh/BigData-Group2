@@ -16,7 +16,7 @@ public class Main {
     public static void main(String[] args){
 
         try {
-            PreparedStatement ps = conn.prepareCall("SELECT * FROM hotel_reviews LIMIT 1");
+            PreparedStatement ps = conn.prepareCall("SELECT DISTINCT(concat(lat,',',lng)) FROM hotel_reviews LIMIT 1");
             ps.execute();
         } catch (SQLException e) {
             e.printStackTrace();
