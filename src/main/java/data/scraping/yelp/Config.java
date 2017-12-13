@@ -2,7 +2,7 @@ package data.scraping.yelp;
 
 public enum Config {
 
-    YELP("WXlfKkuls4FSD3Cel_Y-PqxvjhQ89IGhmW_KJi_9eJletViVY_iqsgzFUDDkp_iVzqrOOZVOVSHmQBzzjehKGmcerOdf_CiuVo8mA1aLbcG0Gm0nYUN-0_7GRQsvWnYx");
+    YELP("Bearer WXlfKkuls4FSD3Cel_Y-PqxvjhQ89IGhmW_KJi_9eJletViVY_iqsgzFUDDkp_iVzqrOOZVOVSHmQBzzjehKGmcerOdf_CiuVo8mA1aLbcG0Gm0nYUN-0_7GRQsvWnYx");
 
     private String key;
 
